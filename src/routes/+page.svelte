@@ -1,14 +1,7 @@
 <script lang="ts">
 
 	// Imports:
-	import { onMount } from 'svelte';
-
-	// Initializations & Exports:
-	// :3
-
-	onMount(() => {
-		// :3
-	});
+	import OofButton from '$lib/OofButton.svelte';
 	
 </script>
 
@@ -16,19 +9,24 @@
 
 <!-- SvelteKit Dynamic Header -->
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Home Page" />
+	<title>Oof</title>
+	<meta name="description" content="Where else can you get free Andy oofs?" />
 </svelte:head>
 
 <!-- Page Content -->
 <section>
-	<span>Home Page</span>
+	<OofButton />
 </section>
 
 <!-- #################################################################################################### -->
 
 <style>
 
-	/* CSS Goes Here */
+	section {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
 	
 </style>

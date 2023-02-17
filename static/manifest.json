@@ -1,8 +1,8 @@
 {
-  "name": "example-name",
-  "short_name": "example",
+  "name": "Andy Says Oof",
+  "short_name": "andy-oofs",
 	"theme_color": "#1e88e5",
-  "background_color": "#3E82F7",
+  "background_color": "#161616",
   "display": "minimal-ui",
   "start_url": "/",
   "icons": [
